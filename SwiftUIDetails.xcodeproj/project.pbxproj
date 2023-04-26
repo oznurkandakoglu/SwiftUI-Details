@@ -11,6 +11,12 @@
 		0AD58DE929F9450000522953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD58DE829F9450000522953 /* ContentView.swift */; };
 		0AD58DEB29F9450000522953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD58DEA29F9450000522953 /* Assets.xcassets */; };
 		0AD58DEE29F9450000522953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD58DED29F9450000522953 /* Preview Assets.xcassets */; };
+		0AD58DF529F954AA00522953 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD58DF429F954AA00522953 /* DetailsView.swift */; };
+		0AD58DF729F955B600522953 /* ButtonFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD58DF629F955B600522953 /* ButtonFirstView.swift */; };
+		0AD58DF929F955C700522953 /* ButtonSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD58DF829F955C700522953 /* ButtonSecondView.swift */; };
+		0AD58DFB29F95A5300522953 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD58DFA29F95A5300522953 /* ListView.swift */; };
+		0AD58DFD29F95BDD00522953 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD58DFC29F95BDD00522953 /* User.swift */; };
+		0AD58DFF29F95CFB00522953 /* BolumluListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD58DFE29F95CFB00522953 /* BolumluListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		0AD58DE829F9450000522953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AD58DEA29F9450000522953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD58DED29F9450000522953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AD58DF429F954AA00522953 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		0AD58DF629F955B600522953 /* ButtonFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFirstView.swift; sourceTree = "<group>"; };
+		0AD58DF829F955C700522953 /* ButtonSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSecondView.swift; sourceTree = "<group>"; };
+		0AD58DFA29F95A5300522953 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		0AD58DFC29F95BDD00522953 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0AD58DFE29F95CFB00522953 /* BolumluListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolumluListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			children = (
 				0AD58DE629F9450000522953 /* SwiftUIDetailsApp.swift */,
 				0AD58DE829F9450000522953 /* ContentView.swift */,
+				0AD58DF429F954AA00522953 /* DetailsView.swift */,
 				0AD58DEA29F9450000522953 /* Assets.xcassets */,
 				0AD58DEC29F9450000522953 /* Preview Content */,
+				0AD58DF629F955B600522953 /* ButtonFirstView.swift */,
+				0AD58DF829F955C700522953 /* ButtonSecondView.swift */,
+				0AD58DFA29F95A5300522953 /* ListView.swift */,
+				0AD58DFC29F95BDD00522953 /* User.swift */,
+				0AD58DFE29F95CFB00522953 /* BolumluListView.swift */,
 			);
 			path = SwiftUIDetails;
 			sourceTree = "<group>";
@@ -139,6 +157,12 @@
 			files = (
 				0AD58DE929F9450000522953 /* ContentView.swift in Sources */,
 				0AD58DE729F9450000522953 /* SwiftUIDetailsApp.swift in Sources */,
+				0AD58DFB29F95A5300522953 /* ListView.swift in Sources */,
+				0AD58DF929F955C700522953 /* ButtonSecondView.swift in Sources */,
+				0AD58DF529F954AA00522953 /* DetailsView.swift in Sources */,
+				0AD58DF729F955B600522953 /* ButtonFirstView.swift in Sources */,
+				0AD58DFD29F95BDD00522953 /* User.swift in Sources */,
+				0AD58DFF29F95CFB00522953 /* BolumluListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

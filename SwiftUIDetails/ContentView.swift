@@ -10,10 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            DetailsView(image: Image("istanbul"))
+            DetailsView(image: Image("ankara"))
+            Text("Hello, Istanbul!")
+                .foregroundColor(.purple)
+                .fontWeight(.heavy)
+                .font(.largeTitle)
+            Text("Merhaba Dünya")
+                .font(.title)
+                .padding()
+                .frame(minWidth: 100, idealWidth: 200, maxWidth: 250, minHeight: 100, idealHeight: 100, maxHeight: 100, alignment: .center)
         }
         .padding()
     }
